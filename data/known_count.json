@@ -1,0 +1,44 @@
+[
+  {
+    "id": "planet",
+    "knownCount": 8,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/planet"
+  },
+  {
+    "id": "dwarfPlanet",
+    "knownCount": 5,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/dwarfPlanet"
+  },
+  {
+    "id": "asteroid",
+    "knownCount": 1332214,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/asteroid"
+  },
+  {
+    "id": "comet",
+    "knownCount": 3937,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/comet"
+  },
+  {
+    "id": "moonsPlanet",
+    "knownCount": 288,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/moonsPlanet"
+  },
+  {
+    "id": "moonsDwarfPlanet",
+    "knownCount": 9,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/moonsDwarfPlanet"
+  },
+  {
+    "id": "moonsAsteroid",
+    "knownCount": 569,
+    "updateDate": "27/12/2023",
+    "rel": "https://api.le-systeme-solaire.net/rest/knowncount/moonsAsteroid"
+  }
+]

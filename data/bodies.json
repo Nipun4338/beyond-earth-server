@@ -1,0 +1,221 @@
+{
+  "bodies": [
+    {
+      "id": "sun",
+      "name": "Le Soleil",
+      "englishName": "Sun",
+      "isPlanet": false,
+      "moons": null,
+      "semimajorAxis": 0,
+      "perihelion": 0,
+      "aphelion": 0,
+      "eccentricity": 0,
+      "inclination": 0,
+      "mass": {
+        "massValue": 1.989,
+        "massExponent": 30
+      },
+      "vol": {
+        "volValue": 1.412,
+        "volExponent": 18
+      },
+      "density": 1.408,
+      "gravity": 274,
+      "escape": 617.7,
+      "meanRadius": 696342,
+      "equaRadius": 696342,
+      "polarRadius": 696342,
+      "flattening": 0,
+      "dimension": "",
+      "sideralOrbit": 0,
+      "sideralRotation": 609.12,
+      "aroundPlanet": null,
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 0
+    },
+    {
+      "id": "mercure",
+      "name": "Mercure",
+      "englishName": "Mercury",
+      "isPlanet": true,
+      "moons": null,
+      "semimajorAxis": 57909050,
+      "perihelion": 46001200,
+      "aphelion": 69816900,
+      "eccentricity": 0.2056,
+      "inclination": 7.005,
+      "mass": {
+        "massValue": 3.3011,
+        "massExponent": 23
+      },
+      "vol": {
+        "volValue": 6.083,
+        "volExponent": 10
+      },
+      "density": 5.427,
+      "gravity": 3.7,
+      "escape": 4250,
+      "meanRadius": 2439.7,
+      "equaRadius": 2439.7,
+      "polarRadius": 2439.7,
+      "flattening": 0,
+      "dimension": "",
+      "sideralOrbit": 87.969,
+      "sideralRotation": 1407.6,
+      "aroundPlanet": null,
+      "discoveryDate": "",
+      "alternativeName": "",
+      "axialTilt": 0.0352
+    },
+    {
+      "id": "venus",
+      "name": "Vénus",
+      "englishName": "Venus",
+      "isPlanet": true,
+      "moons": null,
+      "mass": {
+        "massValue": 4.8675,
+        "massExponent": 24
+      },
+      "vol": {
+        "volValue": 9.2843,
+        "volExponent": 11
+      },
+      "gravity": 8.87,
+      "meanRadius": 6051.8,
+      "sideralOrbit": 224.701,
+      "sideralRotation": -5832.5
+    },
+    {
+      "id": "terre",
+      "name": "La Terre",
+      "englishName": "Earth",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "La Lune",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/lune"
+        }
+      ],
+      "mass": {
+        "massValue": 5.97237,
+        "massExponent": 24
+      },
+      "vol": {
+        "volValue": 1.08321,
+        "volExponent": 12
+      },
+      "gravity": 9.8,
+      "meanRadius": 6371.0,
+      "sideralOrbit": 365.256,
+      "sideralRotation": 23.9345
+    },
+    {
+      "id": "mars",
+      "name": "Mars",
+      "englishName": "Mars",
+      "isPlanet": true,
+      "moons": [
+        {
+          "moon": "Phobos",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/phobos"
+        },
+        {
+          "moon": "Deimos",
+          "rel": "https://api.le-systeme-solaire.net/rest/bodies/deimos"
+        }
+      ],
+      "mass": {
+        "massValue": 6.4171,
+        "massExponent": 23
+      },
+      "gravity": 3.71,
+      "meanRadius": 3389.5,
+      "sideralOrbit": 686.98,
+      "sideralRotation": 24.6229
+    },
+    {
+      "id": "jupiter",
+      "name": "Jupiter",
+      "englishName": "Jupiter",
+      "isPlanet": true,
+      "mass": {
+        "massValue": 1.8982,
+        "massExponent": 27
+      },
+      "gravity": 24.79,
+      "meanRadius": 69911,
+      "sideralOrbit": 4332.59,
+      "sideralRotation": 9.925
+    },
+    {
+      "id": "saturne",
+      "name": "Saturne",
+      "englishName": "Saturn",
+      "isPlanet": true,
+      "mass": {
+        "massValue": 5.6834,
+        "massExponent": 26
+      },
+      "gravity": 10.44,
+      "meanRadius": 58232,
+      "sideralOrbit": 10759.22,
+      "sideralRotation": 10.656
+    },
+    {
+      "id": "uranus",
+      "name": "Uranus",
+      "englishName": "Uranus",
+      "isPlanet": true,
+      "mass": {
+        "massValue": 8.681,
+        "massExponent": 25
+      },
+      "gravity": 8.69,
+      "meanRadius": 25362,
+      "sideralOrbit": 30688.5,
+      "sideralRotation": -17.24
+    },
+    {
+      "id": "neptune",
+      "name": "Neptune",
+      "englishName": "Neptune",
+      "isPlanet": true,
+      "mass": {
+        "massValue": 1.02413,
+        "massExponent": 26
+      },
+      "gravity": 11.15,
+      "meanRadius": 24622,
+      "sideralOrbit": 60182,
+      "sideralRotation": 16.11
+    },
+    {
+      "id": "pluton",
+      "name": "Pluton",
+      "englishName": "Pluto",
+      "isPlanet": false,
+      "mass": {
+        "massValue": 1.303,
+        "massExponent": 22
+      },
+      "gravity": 0.62,
+      "meanRadius": 1188.3,
+      "sideralOrbit": 90560,
+      "sideralRotation": -153.3
+    },
+    {
+      "id": "lune",
+      "name": "Lune",
+      "englishName": "Moon",
+      "isPlanet": false,
+      "mass": {
+        "massValue": 7.342,
+        "massExponent": 22
+      },
+      "gravity": 1.62,
+      "meanRadius": 1737.1
+    }
+  ]
+}
